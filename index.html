@@ -3,80 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first Web - site</title>
+    <title>Company Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <!--Header qismi-->
+    <header>
+        <div class="logo">Company Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">LINKS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="banner">
+        <img src="image.png" alt="Banner Image">
+    </section>
+    
+    <main>
+        <section class="content">
+            <h2>Welcome To Our Site</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros, ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget erat sollicitudin vitae accumsan felis eleifend. Phasellus eu ante non magna egestas tincidunt ut varius lorem. Nunc ornare feugiat ligula, ut tincidunt enim porta ne</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros, ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget erat sollicitudin vitae accumsan felis eleifend. Phasellus eu ante non magna egestas tincidunt ut varius lorem. Nunc ornare feugiat ligula, ut tincidunt enim porta ne</p>
+        </section>
         
-        <header>
-            <div class="logo"> Company logo</div>
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">LINKS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!--Banner qismi-->
-        <section class="banner">
-            <img src="image.png" alt="This is banner">
-        </section>
-        <!--Asosiy main qismi-->
-        <section class="main-content">
-            <div class="content-left">
-                <h1>Welcome to Our site</h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros, ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget erat sollicitudin vitae accumsan felis eleifend. Phasellus eu ante non magna egestas tincidunt ut varius lorem. Nunc ornare feugiat ligula, ut tincidunt enim porta nec. Curabitur interdum, ante non vehicula semper, quam arcu condimentum velit, at elementum justo nisi eget urna. Fusce vulputate malesuada euismod. Morbi condimentum tincidunt molestie. In vulputate neque et augue posuere fringilla. Nunc nec tempus nibh.</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros, ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget erat sollicitudin vitae accumsan felis eleifend. Phasellus eu ante non magna egestas tincidunt ut varius lorem. Nunc ornare feugiat ligula, ut tincidunt enim porta nec. Curabitur interdum, ante non vehicula semper, quam arcu condimentum velit, at elementum justo nisi eget urna. Fusce vulputate malesuada euismod. Morbi condimentum tincidunt molestie. In vulputate neque et augue posuere fringilla. Nunc nec tempus nibh.</p>
-            </div>
-            <div class="content-right">
-                <h2 style="background-color: cadetblue;">Categories</h2>
-                <ul>
-                    <li>List Item (1)</li>
-                    <li>List Item (2)</li>
-                    <li>List Item (3)</li>
-                    <li>List Item (4)</li>
-                    <li>List Item (5)</li>
-                    <li>List Item (6)</li>
-                    <li>List Item (7)</li>
-                    <li>List Item (8)</li>
-                </ul>
-            </div>
-        </section>
-        <!--Cartalar bo'limi-->
-        <section class="cards">
-            <div class="card_1">Lorem ipsum dolor <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue.
-            </div>
-            <div class="card_2">Lorem ipsum dolor <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue.
-            </div>
-            <div class="card_3">Lorem ipsum dolor <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue.
-            </div>
-            <div class="card_4">Lorem ipsum dolor <br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue.
-            </div>
-        </section>
-    </body>
-    </html>
-
-        <!-- Pastgi qism-->
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">LINKS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-                <p>&copy; Copyright 2014. Designed by html templates</p>
-            </nav>
-        </footer>
-    </div>
+        <aside class="categories">
+            <h3>Categories</h3>
+            <ul>
+                <li>List Item (1)</li>
+                <li>List Item (2)</li>
+                <li>List Item (3)</li>
+                <li>List Item (4)</li>
+                <li>List Item (5)</li>
+                <li>List Item (6)</li>
+                <li>List Item (7)</li>
+                <li>List Item (8)</li>
+            </ul>
+        </aside>
+    </main>
+    
+    <section class="info-cards">
+        <div class="card">Lorem ipsum dolor <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue. <br>
+             <a href="#">read more</a>
+        </div>
+        <div class="card_1">Lorem ipsum dolor <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue. <br>
+            <a href="#">read more</a>
+        </div>
+        <div class="card_3 ">Lorem ipsum dolor <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue. <br>
+            <a href="#">read more</a></div>
+        <div class="card_4">Lorem ipsum dolor <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur augue eu neque. Mauris augue. <br>
+         <a href="#">read more</a></div>
+    </section>
+    
+    <footer>
+        <p>Contact info</p>
+        <p>© Copyright 2024. Designed by HTML Templates</p>
+    </footer>
+</body>
+</html>
